@@ -5,14 +5,12 @@ function Header() {
   return (
     <div className="card">
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
+        <h1 className="card-title">Employee Directory</h1>
         <p className="card-text">
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
+          Click on carrots to filter by heading or use the search box to narrow
+          your results.
         </p>
-        <p className="card-text">
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </p>
+        <br />
       </div>
     </div>
   );
