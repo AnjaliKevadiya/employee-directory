@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./App.css";
 import Header from "./components/Navbar";
-import Search from "./components/Search";
+import SearchForm from "./components/SearchForm";
 import Wrapper from "./components/Wrapper";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <Router basename="/employee-directory">
       <div className="App">
         <Header />
-        <Search />
+        <SearchForm />
         {/* <Wrapper /> */}
       </div>
     </Router>
