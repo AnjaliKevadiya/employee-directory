@@ -17,7 +17,7 @@ const styles = () =>
     },
   });
 
-class BasicTable extends React.Component {
+class Wrapper extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -101,4 +101,4 @@ class BasicTable extends React.Component {
   }
 }
 
-export default withStyles(styles)(BasicTable);
+export default withStyles(styles)(Wrapper);

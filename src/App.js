@@ -11,8 +11,8 @@ function App() {
     <Router basename="/employee-directory">
       <div className="App">
         <Header />
-        <SearchForm />
-        {/* <Wrapper /> */}
+        {/* <SearchForm /> */}
+        <Wrapper />
       </div>
     </Router>
   );
