@@ -14,7 +14,7 @@
 
 - [Usage](#usage)
 
-- [Deployed Link](#deployedlink)
+- [Deployed Link](#deployed-link)
 
 - [Preview](#preview)
 
