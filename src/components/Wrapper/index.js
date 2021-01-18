@@ -23,6 +23,7 @@ class Wrapper extends React.Component {
     this.state = {
       users: [],
       search: "",
+      sortDirection: 0,
     };
   }
   componentDidMount() {
@@ -43,11 +44,21 @@ class Wrapper extends React.Component {
   };
 
   sortByName() {
-    this.setState({
-      users: this.state.users.sort((a, b) =>
-        a.name.first > b.name.first ? 1 : -1
-      ),
-    });
+    if (this.state.sortDirection < 1) {
+      this.setState({
+        users: this.state.users.sort((a, b) =>
+          a.name.first > b.name.first ? 1 : -1
+        ),
+      });
+      this.setState({ sortDirection: 1 });
+    } else {
+      this.setState({
+        users: this.state.users.sort((a, b) =>
+          a.name.first < b.name.first ? 1 : -1
+        ),
+      });
+      this.setState({ sortDirection: 0 });
+    }
   }
 
   render() {
