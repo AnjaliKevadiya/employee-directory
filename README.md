@@ -14,6 +14,8 @@
 
 - [Usage](#usage)
 
+- [Deployed Link](#deployedlink)
+
 - [Preview](#preview)
 
 - [Questions](#questions)
@@ -67,6 +69,8 @@ To run this project, run the following command:
 ```
 npm start
 ```
+
+## [Deployed Link](https://anjalikevadiya.github.io/employee-directory/)
 
 ## Preview
 
