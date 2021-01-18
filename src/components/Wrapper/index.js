@@ -45,7 +45,7 @@ class Wrapper extends React.Component {
   sortByName() {
     this.setState({
       users: this.state.users.sort((a, b) =>
-        a.name.last > b.name.last ? 1 : -1
+        a.name.first > b.name.first ? 1 : -1
       ),
     });
   }
