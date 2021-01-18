@@ -67,7 +67,7 @@ class Wrapper extends React.Component {
               </TableCell>
               <TableCell align="right">Phone Number</TableCell>
               <TableCell align="right">Email</TableCell>
-              <TableCell align="right">DoB</TableCell>
+              <TableCell align="right">DOB</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
