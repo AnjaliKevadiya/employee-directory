@@ -53,12 +53,6 @@ The user should be able to:
 To install necessary dependencies, run the following command:
 
 ```
-npm i
-```
-
-OR
-
-```
 npm install
 ```
 
